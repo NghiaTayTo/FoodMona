@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --theme-color: #659833;
+    --theme-color2: #fe9505;
+    --theme-color3: #84a94f;
+    --title-color: #000000;
+    --body-color: #858585;
+    --body-color2: #959595;
+    --black-color: #000000;
+    --light-color: #c2c2c2;
+    --vs-secondary-color: #f5f6fb;
+    --smoke-color: #f8f8f8;
+    --dark-color: #252323;
+    --light-dark-color: #0f1116;
+    --white-color: #ffffff;
+    --yellow-color: #fec624;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --border-color: rgba(0, 0, 0, 0.10);
+    --theme-font: "Advent Pro", sans-serif;
+    --theme-font2: "Lato", sans-serif;
+    --theme-font3: "Amatic SC", cursive;
+    --icon-font: "Font Awesome 5 Pro";
+    --moving-ani-duration: 10s;
+    --ripple-ani-duration: 5s;
+}
+
+::-webkit-scrollbar-button {
+    display: none; /* Ẩn nút bấm */
+}
+
+/* Custom scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 7px; /* Độ rộng của thanh cuộn dọc */
+    height: 8px; /* Độ rộng của thanh cuộn ngang */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #28a745; /* Màu của thanh cuộn */
+}
+
+::-webkit-scrollbar-track {
+    background: #cac9c9; /* Màu nền của track (đường dẫn thanh cuộn) */
+}
+
+/* Custom scrollbar for Firefox */
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: var(--theme-font2), sans-serif;
+    z-index: 0  ;
+}
+
+
+button,
+input,
+select,
+textarea,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto !important;
+}
+
+

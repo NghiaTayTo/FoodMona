@@ -1,0 +1,919 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Táo Juliet Pháp",
+            "main_image": "../assets/images/product_1.png",
+            "description_image": [
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png"
+            ],
+            "price": 110000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Chuối Laba loại 1",
+            "main_image": "../assets/images/product_2.png",
+            "description_image": [
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png"
+            ],
+            "price": 150000,
+            "price_sale": 20,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": true,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Kiwi xanh",
+            "main_image": "../assets/images/product_4.png",
+            "description_image": [
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png"
+            ],
+            "price": 180000,
+            "price_sale": 12,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": true,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Cải thảo",
+            "main_image": "../assets/images/product_5.png",
+            "description_image": [
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png"
+            ],
+            "price": 70000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Cà tím",
+            "main_image": "../assets/images/product_6.png",
+            "description_image": [
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png"
+            ],
+            "price": 110000,
+            "price_sale": 12,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": true,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Cà rốt",
+            "main_image": "../assets/images/product_9.png",
+            "description_image": [
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png"
+            ],
+            "price": 30000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Chanh vàng",
+            "main_image": "../assets/images/product_10.png",
+            "description_image": [
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png"
+            ],
+            "price": 40000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 8,
+            "name": "Cherry Pháp",
+            "main_image": "../assets/images/product_15.png",
+            "description_image": [
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png",
+                "../assets/images/product_1.png"
+            ],
+            "price": 200000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 9,
+            "name": "Đào",
+            "main_image": "../assets/images/dao.jpg",
+            "description_image": [
+                "../assets/images/dao.jpg",
+                "../assets/images/dao.jpg",
+                "../assets/images/dao.jpg"
+            ],
+            "price": 330000,
+            "price_sale": 12,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        
+        {
+            "id": 10,
+            "name": "Dừa sáp",
+            "main_image": "../assets/images/duasap.jpg",
+            "description_image": [
+                "../assets/images/duasap.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 35000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 11,
+            "name": "Ớt",
+            "main_image": "../assets/images/ot.jpg",
+            "description_image": [
+                "../assets/images/ot.jpg",
+                "../assets/images/occho.jpg",
+                "../assets/images/taoxanh.jpg"
+            ],  
+            "price": 45000,
+            "price_sale": 29,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": true,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 12,
+            "name": "Quả óc chó",
+            "main_image": "../assets/images/occho.jpg",
+            "description_image": [
+                "../assets/images/occho.jpg",
+                "../assets/images/cam.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 120000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 13,
+            "name": "Táo xanh",
+            "main_image": "../assets/images/taoxanh.jpg",
+            "description_image": [
+                "../assets/images/taoxanh.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 220000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": false,
+            "isPromotion": true,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 14,
+            "name": "Chanh dây",
+            "main_image": "../assets/images/chanhday.jpg",
+            "description_image": [
+                "../assets/images/chanhday.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 190000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 15,
+            "name": "Nho xanh",
+            "main_image": "../assets/images/nho.jpg",
+            "description_image": [
+                "../assets/images/nho.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 320000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": false,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 16,
+            "name": "Lựu",
+            "main_image": "../assets/images/luu.jpg",
+            "description_image": [
+                "../assets/images/luu.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 170000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": true,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 17,
+            "name": "Cà chua",
+            "main_image": "../assets/images/cachua.jpg",
+            "description_image": [
+                "../assets/images/cachua.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 320000,
+            "price_sale": 92,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": true,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 18,
+            "name": "Dưa leo",
+            "main_image": "../assets/images/dualeo.jpg",
+            "description_image": [
+                "../assets/images/dualeo.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 50000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": true,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 19,
+            "name": "Súp lơ",
+            "main_image": "../assets/images/suplo.jpg",
+            "description_image": [
+                "../assets/images/suplo.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 50000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": true,
+            "isPromotion": true,
+            "isBestSeller": false,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        },
+
+        {
+            "id": 20,
+            "name": "Cam",
+            "main_image": "../assets/images/cam.jpg",
+            "description_image": [
+                "../assets/images/cam.jpg",
+                "../assets/images/chuoi.jpg",
+                "../assets/images/dao.jpg"
+            ],  
+            "price": 125000,
+            "price_sale": 0,
+            "quantity": 1000,
+            "category": [
+                "Rau củ hữu cơ",
+                "Ngũ cốc",
+                "Đồ khô",
+                "Trái cây"
+            ],
+            "isNew": false,
+            "isPromotion": true,
+            "isBestSeller": true,
+            "description": [
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                },
+                {
+                    "type": "image",
+                    "content": "../assets/images/product_1.png"
+                },
+                {
+                    "type": "text",
+                    "content": "abc"
+                }
+
+            ]
+        }
+
+    ]
+}

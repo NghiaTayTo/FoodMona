@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FoodMona</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="../styles/main.css" />
+        <link rel="stylesheet" href="../styles/index.css" />
+    </head>
+
+    <body>
+        <div id="header-placeholder"></div>
+
+        <script>
+            // Tải file header.html và nhúng vào phần tử có id "header-placeholder"
+            fetch("header.html")
+                .then((response) => response.text())
+                .then((data) => {
+                    document.getElementById("header-placeholder").innerHTML = data;
+                });
+        </script>
+
+        <div id="carouselExampleCaptions" class="carousel slide slide-copy">
+            <div class="container">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div style="display: flex; justify-content: space-between">
+                    <div class="carousel-inner carousel-inner-copy">
+                        <div class="carousel-item carousel-item-copy active">
+                            <img src="../assets/images/organic2-slider1.jpg" class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>
+                                    Trang trại <span>Thực phẩm tươi sạch &</span> 100% Hữu cơ
+                                </h3>
+                                <p>Awlays fresh organic products for you</p>
+                                <button>Mua ngay</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item-copy">
+                            <img src="../assets/images/organic2-slider2.jpg" class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>
+                                    Nói không với <span>Thuốc trừ sâu &</span> chất bảo quản
+                                </h3>
+                                <p>Awlays fresh organic products for you</p>
+                                <button>Mua ngay</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-box">
+                        <img src="../assets/images/organic22-banner-1.jpg" alt="..." />
+                        <div class="carousel-box_info">
+                            <div class="carousel-box_info--title">
+                                <h2>30%</h2>
+                                <span>SALE OFF</span>
+                            </div>
+                            <p>Spring Fresh Fruit</p>
+                            <p>Special Offer.</p>
+                            <button>MUA NGAY</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span aria-hidden="true">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span aria-hidden="true">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="information container">
+            <div class="information-item">
+                <div class="information_img">
+                    <div class="information_img-border">
+                        <img src="../assets/images/organic4-icon1.png" alt="" />
+                    </div>
+                </div>
+                <div class="information-info">
+                    <h3>Tươi sạch</h3>
+                    <p>Rau củ được thu hoạch tươi mới, đảm bảo an toàn</p>
+                </div>
+            </div>
+            <div class="information-item">
+                <div class="information_img">
+                    <div class="information_img-border">
+                        <img src="../assets/images/organic2-icon2.png" alt="" />
+                    </div>
+                </div>
+                <div class="information-info">
+                    <h3>Hữu cơ</h3>
+                    <p>Sản phẩm hữu cơ, không sử dụng hóa chất độc hại</p>
+                </div>
+            </div>
+            <div class="information-item">
+                <div class="information_img">
+                    <div class="information_img-border">
+                        <img src="../assets/images/organic2-icon3.png" alt="" />
+                    </div>
+                </div>
+                <div class="information-info">
+                    <h3>Chất lượng</h3>
+                    <p>Chất lượng cao, chọn lọc kỹ lưỡng từ các trang trại uy tín</p>
+                </div>
+            </div>
+            <div class="information-item">
+                <div class="information_img">
+                    <div class="information_img-border">
+                        <img src="../assets/images/organic2-icon4.png" alt="" />
+                    </div>
+                </div>
+                <div class="information-info">
+                    <h3>Tự nhiên</h3>
+                    <p>Rau củ tự nhiên, trồng trong môi trường không biến đổi gen</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- * SẢN PHẨM -->
+        <div class="container newproduct">
+            <h4>FEATURE PRODUCTS</h4>
+            <h2>SẢN PHẨM MỚI NHẤT</h2>
+            <div class="category">
+                <button class="category-btn category-btn_choose">
+                    <div style="margin-right: 18px;">
+                        <img class="category-btn_img" src="../assets/images/salad.png" alt="">
+                        <p class="category-btn_text">Tất cả</p>
+                    </div>
+
+                    <img src="../assets/images/shape-filter.png" alt="">
+                </button>
+
+                <button class="category-btn">
+                    <div style="margin-right: 18px;">
+                        <img class="category-btn_img" src="../assets/images/vegetable.png" alt="">
+                        <p class="category-btn_text">Deals</p>
+                    </div>
+
+                    <img src="../assets/images/shape-filter.png" alt="">
+                </button>
+
+                <button class="category-btn">
+                    <div style="margin-right: 18px;">
+                        <img class="category-btn_img" src="../assets/images/vegetables.png" alt="">
+                        <p class="category-btn_text">Vegetables</p>
+                    </div>
+
+                    <img src="../assets/images/shape-filter.png" alt="">
+                </button>
+
+                <button class="category-btn">
+                    <div style="margin-right: 18px;">
+                        <img class="category-btn_img" src="../assets/images/barbecue.png" alt="">
+                        <p class="category-btn_text">Meat</p>
+                    </div>
+
+                    <img src="../assets/images/shape-filter.png" alt="">
+                </button>
+
+                <button class="category-btn">
+                    <div style="margin-right: 18px;">
+                        <img class="category-btn_img" src="../assets/images/vegetables (1).png" alt="">
+                        <p class="category-btn_text">Fresh food</p>
+                    </div>
+
+                </button>
+
+            </div>
+
+            <!--* LOAD SẢN PHẨM -->
+            <div id="new-product" class="product-grid">
+
+            </div>
+
+
+        </div>
+
+        <!-- * Xem nhanh sản phẩm -->
+        <div class="view-black hidden">
+            <div class="xemnhanh">
+                <div class="xemnhanh-img">
+                    <div id="carouselExampleIndicators" class="carousel slide xemnhanh-slide">
+                        <div class="carousel-indicators xemnhanh-btn_choose">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner xemnhanh-inner">
+                            <div class="carousel-item xemnhanh-item active">
+                                <img src="../assets/images/product_1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item xemnhanh-item">
+                                <img src="../assets/images/product_2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item xemnhanh-item">
+                                <img src="../assets/images/product_10.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev xemnhanh-btn-prev" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span aria-hidden="true">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                        </button>
+                        <button class="carousel-control-next xemnhanh-btn-next" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span aria-hidden="true">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="xemnhanh-info">
+                    <h2>Kiwi xanh organic</h2>
+                    <div class="xemnhanh-info-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p style="margin-left: 7px;">(3 đánh giá của khách hàng)</p>
+                    </div>
+                    <div class="xemnhanh-info-price">
+                        <p>150,000₫</p>
+                        <del>180,000₫</del>
+                    </div>
+                    <div class="xemnhanh-info-note">
+                        <i class="fa-solid fa-check"></i>
+                        <p>Unrestrained And portable active streo</p>
+                    </div>
+                    <div class="xemnhanh-info-note">
+                        <i class="fa-solid fa-check"></i>
+                        <p>Free from the confines the wires and chords</p>
+                    </div>
+                    <div class="xemnhanh-info-note">
+                        <i class="fa-solid fa-check"></i>
+                        <p>20 hours of portable capabilities</p>
+                    </div>
+
+                    <div class="xemnhanh-info-addcart">
+                        <input value="1" class="custom-input" type="number" min="0">
+                        <button>Thêm vào giỏ hàng</button>
+                    </div>
+
+                    <div class="xemnhanh-info-category">
+                        <span>Danh mục:</span> Tái cây, Rau củ hữu cơ
+                    </div>
+
+                </div>
+
+                <button class="xemnhanh-btn-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+        </div>
+
+
+        <div class="ads container ">
+            <div class="ads-box">
+                <div class="ads-img">
+                    <img src="../assets/images/banner-5-1.jpg" alt="">
+                    <div>
+                        <h3>Thực phẩm cao cấp
+                            và 100% hữu cơ</h3>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ads-box">
+                <div class="ads-img">
+                    <img src="../assets/images/banner-5-2.jpg" alt="">
+                    <div>
+                        <p>Cảm nhận sự khác biệt</p>
+                        <h2>Hương vị chất lượng</h2>
+                        <span>Khám Phá Hương Vị Tự Nhiên</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ads-box">
+                <div class="ads-img">
+                    <img src="../assets/images/banner-5-3.jpg" alt="">
+                    <div>
+                        <h3>Thực phẩm hữu cơ
+                            Lối sống bền vững</h3>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- * SẢN PHẢM CHẤT LƯỢNG -->
+        <div class="container vegetables">
+            <div class="vegetables-header">
+                <h3>Sản phẩm chất lượng</h3>
+
+                <ul>
+                    <li class="vegetables-active">Mới nhất</li>
+                    <li>Bán chạy</li>
+                    <li>Khuyến mãi</li>
+                </ul>
+
+            </div>
+
+            <div class="vegetables-content">
+                <div class="vegetables-img">
+                    <a href="">
+                        <img src="../assets/images/organic2-v-banner1.jpg" alt="">
+                        <h3>Trái cây tự nhiên mỗi ngày</h3>
+                        <button>MUA NGAY</button>
+                    </a>
+                </div>
+
+                <div id="new-products2" class="vegetables-products">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <a href="">
+                <div class="banner-sale-warper">
+                    <img src="../assets/images/organic2-h-banner.jpg" alt="">
+                    <div class="banner-sale-warper_div">
+                        <h3>20% OFF</h3>
+                        <h5>Rau quả hữu cơ</h5>
+                        <a class="banner-sale-warper_link" href="">XEM TẤT CẢ</a>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- * SẢN PHẨM BÁN CHẠY -->
+        <div class="container vegetables">
+            <div class="vegetables-header">
+                <h3>Bán chạy</h3>
+
+                <ul>
+                    <li class="vegetables-active">Trái cây</li>
+                    <li>Rau củ</li>
+                    <li class="vegetables-header_update">Gia vị, nguyên liệu</li>
+                    <li>Thịt, cá, hải sản</li>
+                    <li>Ngũ cốc</li>
+                </ul>
+
+            </div>
+
+            <div class="vegetables-content">
+                <div class="vegetables-img">
+                    <a href="">
+                        <img src="../assets/images/organic2-v-banner2.jpg" alt="">
+                        <h3 style="color: black; width: 170px;">Thực phẩm bán chạy</h3>
+                        <p>Các loại thực phẩm được người mua tin dùng</p>
+                        <button style="background-color: #84a94f; color: white; top: 180px;">MUA NGAY</button>
+                    </a>
+                </div>
+
+                <div id="bestseller-products" class="vegetables-products">
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- * BANNER BUY -->
+        <div class="container banner-buy">
+
+            <div class="banner-buy-item">
+                <div class="banner-buy-item_img">
+                    <img src="../assets/images/organic2-h-banner2-1.jpg" alt="">
+                </div>
+
+                <div class="banner-buy-item_info">
+                    <h4>Rau củ tươi sạch</h4>
+                    <div>
+                        <p>Sale off</p>
+                        <span>25%</span>
+                    </div>
+                    <button>MUA NGAY</button>
+                </div>
+            </div>
+
+            <div class="banner-buy-item">
+                <div class="banner-buy-item_img">
+                    <img src="../assets/images/organic2-h-banner3-1.jpg" alt="">
+                </div>
+
+                <div class="banner-buy-item_info">
+                    <h4>Dầu táo Mona</h4>
+                    <p>Best product to make your favor</p>
+                    <div style="line-height: 1; margin-top: 17px;">
+                        <h6>CHỈ VỚI</h6>
+                        <span>99,000 ₫</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-buy-item">
+                <div class="banner-buy-item_img">
+                    <img src="../assets/images/organic2-h-banner4-1.jpg" alt="">
+                </div>
+
+                <div class="banner-buy-item_info">
+                    <h4>Trái cây chất lượng</h4>
+                    <div>
+                        <span>30% OFF</span>
+                        <p>IN JUNE-JULY</p>
+                    </div>
+                    <button>MUA NGAY</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- * SẢN PHẨM KHUYẾN MÃI -->
+        <div class="container vegetables">
+            <div class="vegetables-header">
+                <h3>Khuyến mãi</h3>
+
+                <ul>
+                    <li class="vegetables-active">Trái cây</li>
+                    <li>Rau củ</li>
+                    <li class="vegetables-header_update">Gia vị, nguyên liệu</li>
+                    <li>Thịt, cá, hải sản</li>
+                    <li>Ngũ cốc</li>
+                </ul>
+
+            </div>
+
+            <div class="vegetables-content">
+                <div class="vegetables-img">
+                    <a href="">
+                        <img src="../assets/images/organic2-v-banner3.jpg" alt="">
+                    </a>
+                </div>
+
+                <div id="promotion-products" class="vegetables-products">
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- * CHĂM SÓC KHÁCH HÀNG -->
+        <div class="cskh">
+            <div class="cskh-img">
+                <img src="../assets/images/cat-bg-4584.jpg" alt="">
+            </div>
+            <div class="cskh-info">
+                <h3>CHĂM SÓC SỨC KHỎE MỖI NGÀY</h3>
+                <h2>Thị trường thực phẩm hữu cơ</h2>
+                <p>Thông tin, nguồn gốc sản phẩm rõ ràng: Đối với các cửa hàng rau sạch online bạn sẽ dễ dàng xem xét
+                    thông tin, xuất xứ sản phẩm trước khi mua</p>
+                <div class="cskh-info_btn">
+                    <button>Khám phá</button>
+                    <button><i class="fa-solid fa-phone"></i>(+84) 0313-728-397</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- * TIN TỨC VÀ TIN TỨC -->
+        <div class="container news">
+            <div class="news-title">
+                <h3>TIPS & NEWS</h3>
+                <h2>TIN TỨC MỚI NHẤT</h2>
+            </div>
+
+            <div class="news-box">
+
+                <div class="news-item">
+                    <div class="news-item-img">
+                        <a href="">
+                            <img src="../assets/images/news1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="news-item-info">
+                        <h6>17 THÁNG 10, 2024</h6>
+                        <p>Posted By FoodMona</p>
+                        <a class="news-item-info_link" href="">Latin derived from Cicero’s 1st-century BC text</a>
+                        <div>
+                            <a class="news-item-info_detail" href="">
+                                Chi tiết
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-item-img">
+                        <img src="../assets/images/news2.jpg" alt="">
+                    </div>
+                    <div class="news-item-info">
+                        <h6>17 THÁNG 10, 2024</h6>
+                        <p>Posted By FoodMona</p>
+                        <a class="news-item-info_link" href="">Latin derived from Cicero’s 1st-century BC text</a>
+                        <div>
+                            <a class="news-item-info_detail" href="">
+                                Chi tiết
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-item-img">
+                        <img src="../assets/images/news3.jpg" alt="">
+                    </div>
+                    <div class="news-item-info">
+                        <h6>17 THÁNG 10, 2024</h6>
+                        <p>Posted By FoodMona</p>
+                        <a class="news-item-info_link" href="">Latin derived from Cicero’s 1st-century BC text</a>
+                        <div>
+                            <a class="news-item-info_detail" href="">
+                                Chi tiết
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-item-img">
+                        <img src="../assets/images/news4.jpg" alt="">
+                    </div>
+                    <div class="news-item-info">
+                        <h6>17 THÁNG 10, 2024</h6>
+                        <p>Posted By FoodMona</p>
+                        <a class="news-item-info_link" href="">Latin derived from Cicero’s 1st-century BC text</a>
+                        <div>
+                            <a class="news-item-info_detail" href="">
+                                Chi tiết
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="news-btn">Xem tất cả</button>
+
+        </div>
+
+        <footer class="footer">
+
+            <div class="footer-bg">
+                <div class="footer-bg">
+                    <img class="footer-bg_img" src="../assets/images/footer-5-1.jpg" alt="">
+
+                    <div class="footer-banner">
+                        <div class="footer-banner-item">
+                            <img class="footer-banner-item_img" src="../assets/images/42053.jpg" alt="">
+                            <div class="footer-banner-item_info">
+                                <span>THỰC PHẨM TỰ NHIÊN 100% ORGANIC</span>
+                                <h3>Khuyến mãi 20%</h3>
+                            </div>
+                        </div>
+                        <div class="footer-banner-item">
+                            <img class="footer-banner-item_img" src="../assets/images/105506.jpg" alt="">
+                            <div class="footer-banner-item_info">
+                                <span>THỰC PHẨM TỰ NHIÊN 100% ORGANIC</span>
+                                <h3>Khuyến mãi 20%</h3>
+                            </div>
+                        </div>
+                        <div class="footer-banner-item">
+                            <img class="footer-banner-item_img" src="../assets/images/14030.jpg" alt="">
+                            <div class="footer-banner-item_info">
+                                <span>THỰC PHẨM TỰ NHIÊN 100% ORGANIC</span>
+                                <h3>Khuyến mãi 20%</h3>
+                            </div>
+                        </div>
+                        <div class="footer-banner-item">
+                            <img class="footer-banner-item_img" src="../assets/images/99735.jpg" alt="">
+                            <div class="footer-banner-item_info">
+                                <span>THỰC PHẨM TỰ NHIÊN 100% ORGANIC</span>
+                                <h3>Khuyến mãi 20%</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container footer-content">
+
+                        <div class="footer-content-info">
+                            <img src="../assets/images/FoodMona-2-e1722324993786.png" alt="">
+                            <div class="footer-content-info_item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="">info@themona.global</a>
+                            </div>
+                            <div class="footer-content-info_item">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="">(+84) 0313-728-397</a>
+                            </div>
+                            <div class="footer-content-info_item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>1073/23 Cách Mạng Tháng 8, P.7, Q.Tân Bình, TP.HCM</p>
+                            </div>
+                        </div>
+
+                        <div class="footer-content-category">
+                            <div class="footer-content-category_title">
+                                <h3>Danh mục</h3>
+                            </div>
+                            <div class="footer-content-category_li">
+                                <ul>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Farm & Family</a></li>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Farm Shops</a></li>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Market Garden</a></li>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Our Butchery</a></li>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Dartmoor Inn</a></li>
+                                </ul>
+                                <ul style="margin-left: 70px !important;">
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Our Butchery</a></li>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Dartmoor Inn</a></li>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Farm & Family</a></li>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Farm Shops</a></li>
+                                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Market Garden</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="footer-content-image">
+                            <div class="footer-content-category_title">
+                                <h3>Danh mục</h3>
+                            </div>
+                            <div class="footer-content-image_img">
+                                <div>
+                                    <img src="../assets/images/gal-2-1.jpg" alt="">
+                                    <img src="../assets/images/gal-2-2.jpg" alt="">
+                                    <img src="../assets/images/gal-2-3.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="../assets/images/gal-2-4.jpg" alt="">
+                                    <img src="../assets/images/gal-2-5.jpg" alt="">
+                                    <img src="../assets/images/gal-2-6.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="footer-bg-end">
+                        <img src="../assets/images/footer-5-2.png" alt="">
+                        <div class="container footer-bg-end_info">
+                            <div>
+                                <p>© Thiết kế và lập trình bởi: </p>
+                                <span style="margin-left: 7px; font-weight: 600;">Phan Trọng Nghĩa.crypto / Website <i
+                                        class="fa-brands fa-unity"></i></span>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    Facebook
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                    X-Twitter
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    Linked in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </footer>
+
+        <a href="#header-placeholder">
+            <div class="to-header">
+
+                <i class="fa-solid fa-angle-up"></i>
+
+                <div class="to-header-border">
+
+                </div>
+            </div>
+        </a>
+
+
+
+        <!-- *----------------------------------------------------------------------------------------- -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+        <script src="../../dist/index.js"></script>
+
+    </body>
+
+
+
+
+
+</html>
