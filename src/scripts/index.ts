@@ -23,6 +23,27 @@ interface Product {
     description: ProductDescription[];
 }
 
+interface Blog {
+    image: string;
+    title: string;
+    description: string;
+    content: string;
+    author: string;
+    date: string;
+}
+
+async function fecthBlog(): Promise<Blog[]> {
+    let url = `http://localhost:3000/blog`;
+    const response = await fetch(url);
+
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+
+    const data: Blog[] = await response.json();
+    return data;
+}
+
 // Hàm fetchProducts với tham số start và end
 async function fetchProducts(
     limit: number,
@@ -56,6 +77,15 @@ async function fetchProducts(
     const data: Product[] = await response.json();
     return data;
 }
+
+fecthBlog()
+.then(data => {
+    renderBlog(data);
+    initProductInteractions();
+})
+.catch(error => {
+    console.error('Error fetching products:', error);
+});
 
 // lấy 8 sản phẩm mới nhất
 fetchProducts(8, 'new', 0, 8)
@@ -96,6 +126,38 @@ fetchProducts(10, 'promotion')
     .catch(error => {
         console.error('Error fetching products:', error);
     });
+
+// load blog
+function renderBlog(blogs: Blog[]) {
+    const container = document.getElementById('blog');
+    if(container){
+        container.innerHTML = ''; // Xóa nội dung c��
+        let blogHTML = '';
+        blogs.forEach(blog => {
+            blogHTML += `
+                <div class="news-item">
+                    <div class="news-item-img">
+                        <a href="">
+                            <img src="${blog.image}" alt="${blog.title}">
+                        </a>
+                    </div>
+                    <div class="news-item-info">
+                        <h6>${blog.date}</h6>
+                        <p>${blog.author}</p>
+                        <a class="news-item-info_link" href="">${blog.title}</a>
+                        <div>
+                            <a class="news-item-info_detail" href="">
+                                Chi tiết
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+        container.innerHTML += blogHTML;
+    }
+}
 
 // load sản phẩm mới nhất lên giapo diện
 function renderNewProducts(products: Product[]) {

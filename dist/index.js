@@ -35,6 +35,27 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+function fecthBlog() {
+    return __awaiter(this, void 0, void 0, function () {
+        var url, response, data;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    url = "http://localhost:3000/blog";
+                    return [4 /*yield*/, fetch(url)];
+                case 1:
+                    response = _a.sent();
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return [4 /*yield*/, response.json()];
+                case 2:
+                    data = _a.sent();
+                    return [2 /*return*/, data];
+            }
+        });
+    });
+}
 // Hàm fetchProducts với tham số start và end
 function fetchProducts(limit, filterType, start, end) {
     return __awaiter(this, void 0, void 0, function () {
@@ -69,6 +90,14 @@ function fetchProducts(limit, filterType, start, end) {
         });
     });
 }
+fecthBlog()
+    .then(function (data) {
+    renderBlog(data);
+    initProductInteractions();
+})
+    .catch(function (error) {
+    console.error('Error fetching products:', error);
+});
 // lấy 8 sản phẩm mới nhất
 fetchProducts(8, 'new', 0, 8)
     .then(function (products) {
@@ -105,6 +134,18 @@ fetchProducts(10, 'promotion')
     .catch(function (error) {
     console.error('Error fetching products:', error);
 });
+// load blog
+function renderBlog(blogs) {
+    var container = document.getElementById('blog');
+    if (container) {
+        container.innerHTML = ''; // Xóa nội dung c��
+        var blogHTML_1 = '';
+        blogs.forEach(function (blog) {
+            blogHTML_1 += "\n                <div class=\"news-item\">\n                    <div class=\"news-item-img\">\n                        <a href=\"\">\n                            <img src=\"".concat(blog.image, "\" alt=\"").concat(blog.title, "\">\n                        </a>\n                    </div>\n                    <div class=\"news-item-info\">\n                        <h6>").concat(blog.date, "</h6>\n                        <p>").concat(blog.author, "</p>\n                        <a class=\"news-item-info_link\" href=\"\">").concat(blog.title, "</a>\n                        <div>\n                            <a class=\"news-item-info_detail\" href=\"\">\n                                Chi ti\u1EBFt\n                                <i class=\"fa-solid fa-chevron-right\"></i>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            ");
+        });
+        container.innerHTML += blogHTML_1;
+    }
+}
 // load sản phẩm mới nhất lên giapo diện
 function renderNewProducts(products) {
     var container = document.getElementById('new-product');

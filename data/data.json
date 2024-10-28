@@ -915,5 +915,41 @@
             ]
         }
 
+    ],
+    "blog":[
+        {
+            "image": "../assets/images/news1.jpg",
+            "title": "Latin derived from Cicero’s 1st-century BC text",
+            "description": "Description 1",
+            "content": "Content 1",
+            "author": "Posted By FoodMona",
+            "date": "17 tháng 10, 2024"
+        },
+        {
+            "image": "../assets/images/news2.jpg",
+            "title": "Building Killer Robots Game Sehavior iOS With Fuzzy",
+            "description": "Description 2",
+            "content": "Content 2",
+            "author": "Posted By FoodMona",
+            "date": "25 tháng 11, 2024"
+        },
+        {
+            "image": "../assets/images/news3.jpg",
+            "title": "Make Em Shine How To Use Illustrations To Elicits",
+            "description": "Description 3",
+            "content": "Content 3",
+            "author": "Posted By FoodMona",
+            "date": "5 tháng 9, 2024"
+        },
+        {
+            "image": "../assets/images/news4.jpg",
+            "title": "Just Keep Scrolling How To Design Lengthy Lengthy",
+            "description": "Description 4",
+            "content": "Content 4",
+            "author": "Posted By FoodMona",
+            "date": "22 tháng 10, 2024"
+        }
     ]
+
+    
 }
